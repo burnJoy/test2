@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T12:08:18.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.2" etag="ld51AkoP8VsahTq9MFzE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T12:30:36.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cfknTKSzOiLMez4-i5rX" version="22.1.2" type="github">
   <diagram name="Page-1" id="235CuYbqS3Yk4kjO_mFH">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-1" target="J86eCyzd4n_c1m5tFe6B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-1" value="пустая заявка. все не активно" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-2" target="J86eCyzd4n_c1m5tFe6B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-2" value="начали заполнять. &lt;br&gt;у анкеты появился параметр has_tmp_result. &lt;br&gt;&quot;Формирование заявки&quot; становится активным шагом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-6" target="J86eCyzd4n_c1m5tFe6B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;awaiting&lt;/font&gt;&lt;/b&gt;&lt;br&gt;анкету заполнили. у нее появилась заявка анкета получает статус код . &lt;br&gt;Шаг переключается на этап &quot;Входной контроль&quot; под статус (ожидает обработки)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-8" target="J86eCyzd4n_c1m5tFe6B-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-8" target="J86eCyzd4n_c1m5tFe6B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;proccesing&lt;/font&gt;&lt;/b&gt;&lt;br&gt;анкету начали обрабатывать - падает в статус . &lt;br&gt;Этап на степере &quot;Входной контроль&quot; доп заголовок % обработанных вопросов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;legal&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;анкету приняли она упала в статус заголовок на степере оценка правоспособности участника" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-12" target="J86eCyzd4n_c1m5tFe6B-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;revision&lt;br&gt;&lt;/b&gt;&lt;/font&gt;Анкету отправили на доработку статус. На степере переходим на первый шаг Оформление заявки (Доработка)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="J86eCyzd4n_c1m5tFe6B-15" target="J86eCyzd4n_c1m5tFe6B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J86eCyzd4n_c1m5tFe6B-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;reAwaiting&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;после доработки анкета падает в статус Заголовок Входной контроль (ожидает повторной обработки)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="200" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
